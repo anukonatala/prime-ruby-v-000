@@ -2,6 +2,7 @@
 
 def prime?(num)
   for i in 2..n/2
-    if i%
+    temp=num%i;
+    if temp 
   end
 end
