@@ -6,13 +6,13 @@ def prime?(num)
   elsif num == 1
     return false
   else
-    for i in 2..n/2
-    temp=num%i;
-    if temp == 0
-      return false
+    for i in 2..num/2
+     temp=num%i;
+     if temp == 0
+       return false
+     end
     end
-  end
-  return true
+    return true
   end
   
 end
